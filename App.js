@@ -17,11 +17,14 @@ const instructions = Platform.select({
 });
 
 type Props = {};
+
 export default class App extends Component<Props> {
   render() {
+    console.log('jestem tu')
+
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome toooooooo Rddeact Native!</Text>
+        <Text style={styles.welcome}>Wfffme to Rddeact Native!</Text>
         <Text style={styles.instructions}>To get started, edit App.js</Text>
         <Text style={styles.instructions}>{instructions}</Text>
       </View>
